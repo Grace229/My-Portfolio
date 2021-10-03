@@ -2422,11 +2422,6 @@ textarea.input-lg {
 	color: #fFF;
 	border: 1px solid #fff;
 }
-.button:hover {
-	color: #ee333f  !important;
-	background-color: #fff  !important;
-	border: 1px solid #fff  !important;
-}
 .btn.active.focus,
 .btn.active:focus,
 .btn.focus,
@@ -3885,9 +3880,8 @@ tbody.collapse.in {
 }
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
-	color: #fff;
+	color: #ee333f;
 	background-color: transparent;
-	border-bottom: 1px solid #fff;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:focus,

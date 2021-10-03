@@ -2405,6 +2405,7 @@ textarea.input-lg {
 	text-align: center;
 	vertical-align: middle;
 	touch-action: manipulation;
+	color: #fff;
 	cursor: pointer;
 	background-image: none;
 	border: 1px solid transparent;
@@ -2417,15 +2418,6 @@ textarea.input-lg {
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-}
-.button{
-	color: #fFF;
-	border: 1px solid #fff;
-}
-.button:hover {
-	color: #ee333f  !important;
-	background-color: #fff  !important;
-	border: 1px solid #fff  !important;
 }
 .btn.active.focus,
 .btn.active:focus,
@@ -2463,23 +2455,23 @@ fieldset[disabled] a.btn {
 	pointer-events: none;
 }
 .btn-default {
-	color: #ee333f;
+	color: #fff;
 	background-color: transparent;
-	border-color: #ee333f;
+	border-color: #fff;
 }
 .btn-default.focus,
 .btn-default:focus {
-	color: #ee333f;
-	background-color: transparent;
-	border-color: #ee333f;
+	color: #fff;
+	background-color: #fff;
+	border-color: #0000;
 }
 .btn-default.active,
 .btn-default:active,
 .btn-default:hover,
 .open > .btn-default.dropdown-toggle {
-	color: #ee333f;
+	color: #fff;
 	background-color: transparent;
-	border-color: #ee333f;
+	border-color: #0000;
 }
 .btn-default.active.focus,
 .btn-default.active:focus,
@@ -2516,7 +2508,7 @@ fieldset[disabled] .btn-default:hover {
 	background-color: #fff;
 }
 .btn-primary {
-	color: #ee333f;
+	color: #fff;
 	background-color: transparent;
 	border-color: #ee333f;
 }
@@ -3885,9 +3877,8 @@ tbody.collapse.in {
 }
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
-	color: #fff;
+	color: #ee333f;
 	background-color: transparent;
-	border-bottom: 1px solid #fff;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:focus,
