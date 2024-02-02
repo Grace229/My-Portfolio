@@ -1244,7 +1244,6 @@ pre code {
 	.experience-row {
 		display: flex;
 		justify-content: space-evenly;
-		flex-wrap: wrap;
 	}
 	.col-md-1,
 	.col-md-2,
